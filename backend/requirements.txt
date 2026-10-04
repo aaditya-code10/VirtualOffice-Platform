@@ -1,0 +1,28 @@
+# --- Web framework ---------------------------------------------------------
+fastapi>=0.118,<1.0
+uvicorn[standard]>=0.37,<1.0
+python-multipart>=0.0.20
+
+# --- Data / validation -----------------------------------------------------
+pydantic>=2.11,<3.0
+pydantic-settings>=2.7,<3.0
+email-validator>=2.2
+
+# --- Persistence -----------------------------------------------------------
+SQLAlchemy>=2.0.36,<3.0
+alembic>=1.14,<2.0
+psycopg[binary]>=3.2          # PostgreSQL driver (SQLite needs nothing extra)
+
+# --- Auth ------------------------------------------------------------------
+PyJWT>=2.10,<3.0
+bcrypt>=4.2                   # used directly; passlib is not needed
+
+# --- Document parsing ------------------------------------------------------
+pypdf>=5.1
+python-docx>=1.1.2
+
+# --- LLM (optional at runtime; the app falls back without a key) -----------
+google-genai>=0.2.0
+
+# --- Config ----------------------------------------------------------------
+python-dotenv>=1.0

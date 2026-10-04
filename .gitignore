@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# Env & secrets
+.env
+.env.local
+*.local
+credentials.json
+token.json
+
+# Intermediates
+.tmp/
+
+# Databases
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Storage
+backend/storage/
+backend/uploads/
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Scratch & previews
+capture_apex_*.py
+login_screen_preview.png
+dashboard_preview.png
+GEMINI_backup.md
